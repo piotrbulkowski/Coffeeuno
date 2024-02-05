@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Shroomie.Fungi.Application.Queries.GetFungi;
+using Shroomie.Shared.Queries;
 
 namespace Shroomie.Api.Controllers;
 
@@ -18,8 +19,15 @@ public class FungiController : ControllerBase
     }
 
     [HttpGet]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+    public async Task<PagedList<>> BrowseAsync()
+    {
+        
+    }
+    [HttpGet]
     [ProducesResponseType(typeof(List<FungiDto>), StatusCodes.Status200OK)]
-    public async Task<IActionResult> GetAllFungi()
+    public async Task<IActionResult> GetAll()
     {
         throw new NotImplementedException();
     }

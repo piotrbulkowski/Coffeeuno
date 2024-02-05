@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shroomie.Api", "src\Shroomi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shroomie.Fungi", "src\Shroomie.Fungi\Shroomie.Fungi.csproj", "{DB543F82-D3B1-4873-B397-FD305FDE5D43}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shroomie.Shared", "src\Shroomie.Shared\Shroomie.Shared.csproj", "{E475DA2B-622D-4ABA-82C5-2D3A490B801D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{DB543F82-D3B1-4873-B397-FD305FDE5D43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB543F82-D3B1-4873-B397-FD305FDE5D43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB543F82-D3B1-4873-B397-FD305FDE5D43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E475DA2B-622D-4ABA-82C5-2D3A490B801D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E475DA2B-622D-4ABA-82C5-2D3A490B801D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E475DA2B-622D-4ABA-82C5-2D3A490B801D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E475DA2B-622D-4ABA-82C5-2D3A490B801D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
