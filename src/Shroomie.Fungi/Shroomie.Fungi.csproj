@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AssemblyName>Shroomie.Fungi</AssemblyName>
+        <RootNamespace>Shroomie.Fungi</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Application\Commands\" />
+    </ItemGroup>
+
+</Project>
