@@ -1,7 +1,6 @@
-﻿using System.Reflection;
-using Microsoft.OpenApi.Models;
+﻿using Microsoft.OpenApi.Models;
 
-namespace Shroomie.Api.Configuration;
+namespace Coffeeuno.Api.Configuration;
 
 internal static class SwaggerExtension
 {
@@ -10,9 +9,9 @@ internal static class SwaggerExtension
         {
             options.SwaggerDoc("v1", new OpenApiInfo
             {
-                Title = "Shroomie API",
+                Title = "Coffeeuno API",
                 Version = "v1",
-                Description = "Shroomie API"
+                Description = "Coffeeuno API"
             });
             options.CustomSchemaIds(t => t.ToString());
 

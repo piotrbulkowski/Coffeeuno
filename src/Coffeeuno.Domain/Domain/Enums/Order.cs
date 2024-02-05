@@ -1,4 +1,4 @@
-﻿namespace Shroomie.Fungi.Domain.Enums;
+﻿namespace Coffeeuno.Fungi.Domain.Enums;
 
 /// <summary>
 /// Fungi order enumeration based on a linnaean taxonomy classification system

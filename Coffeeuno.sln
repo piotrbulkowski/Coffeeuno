@@ -1,10 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shroomie.Api", "src\Shroomie.Api\Shroomie.Api.csproj", "{97D4CEAB-9E36-4AA2-B746-C955A7705721}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coffeeuno.Api", "src\Coffeeuno.Api\Coffeeuno.Api.csproj", "{97D4CEAB-9E36-4AA2-B746-C955A7705721}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shroomie.Fungi", "src\Shroomie.Fungi\Shroomie.Fungi.csproj", "{DB543F82-D3B1-4873-B397-FD305FDE5D43}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coffeeuno.Domain", "src\Coffeeuno.Domain\Coffeeuno.Domain.csproj", "{DB543F82-D3B1-4873-B397-FD305FDE5D43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shroomie.Shared", "src\Shroomie.Shared\Shroomie.Shared.csproj", "{E475DA2B-622D-4ABA-82C5-2D3A490B801D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coffeeuno.Shared", "src\Coffeeuno.Shared\Coffeeuno.Shared.csproj", "{E475DA2B-622D-4ABA-82C5-2D3A490B801D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

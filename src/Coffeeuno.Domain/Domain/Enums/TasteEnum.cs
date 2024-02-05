@@ -1,4 +1,4 @@
-﻿namespace Shroomie.Fungi.Domain.Enums;
+﻿namespace Coffeeuno.Fungi.Domain.Enums;
 
 public enum TasteEnum
 {

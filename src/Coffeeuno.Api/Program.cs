@@ -1,7 +1,6 @@
-using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Identity.Web;
-using Shroomie.Api.Configuration;
+using Coffeeuno.Api.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 

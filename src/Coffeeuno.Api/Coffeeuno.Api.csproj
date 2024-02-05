@@ -4,9 +4,10 @@
         <TargetFramework>net8.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
-        <UserSecretsId>aspnet-Shroomie.Api-3A3B9603-5B2C-433D-836E-E037F531B399</UserSecretsId>
+        <UserSecretsId>aspnet-Coffeeuno.Api-3A3B9603-5B2C-433D-836E-E037F531B399</UserSecretsId>
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
         <LangVersion>12</LangVersion>
+        <RootNamespace>Coffeeuno.Api</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
@@ -25,8 +26,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Shroomie.Fungi\Shroomie.Fungi.csproj" />
-      <ProjectReference Include="..\Shroomie.Shared\Shroomie.Shared.csproj" />
+      <ProjectReference Include="..\Coffeeuno.Domain\Coffeeuno.Domain.csproj" />
+      <ProjectReference Include="..\Coffeeuno.Shared\Coffeeuno.Shared.csproj" />
     </ItemGroup>
 
 </Project>

@@ -1,4 +1,4 @@
-﻿namespace Shroomie.Shared.Queries;
+﻿namespace Coffeeuno.Shared.Queries;
 
 public class PagedList<T>
 {
