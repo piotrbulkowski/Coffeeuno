@@ -1,4 +1,4 @@
-using Coffeeuno.Domain.Application.Queries.GetRoaster;
+using Coffeeuno.Application.Queries.GetRoaster;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Coffeeuno.Shared.Queries;

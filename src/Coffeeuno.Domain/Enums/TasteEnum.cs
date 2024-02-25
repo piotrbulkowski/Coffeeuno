@@ -1,4 +1,4 @@
-﻿namespace Coffeeuno.Fungi.Domain.Enums;
+﻿namespace Coffeeuno.Domain.Enums;
 
 public enum TasteEnum
 {

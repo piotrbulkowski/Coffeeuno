@@ -26,7 +26,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Coffeeuno.Domain\Coffeeuno.Domain.csproj" />
+      <ProjectReference Include="..\Coffeeuno.Application\Coffeeuno.Application.csproj" />
       <ProjectReference Include="..\Coffeeuno.Shared\Coffeeuno.Shared.csproj" />
     </ItemGroup>
 

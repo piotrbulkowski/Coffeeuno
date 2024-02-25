@@ -2,9 +2,13 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coffeeuno.Api", "src\Coffeeuno.Api\Coffeeuno.Api.csproj", "{97D4CEAB-9E36-4AA2-B746-C955A7705721}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coffeeuno.Domain", "src\Coffeeuno.Domain\Coffeeuno.Domain.csproj", "{DB543F82-D3B1-4873-B397-FD305FDE5D43}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coffeeuno.Application", "src\Coffeeuno.Application\Coffeeuno.Application.csproj", "{DB543F82-D3B1-4873-B397-FD305FDE5D43}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coffeeuno.Shared", "src\Coffeeuno.Shared\Coffeeuno.Shared.csproj", "{E475DA2B-622D-4ABA-82C5-2D3A490B801D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coffeeuno.Domain", "src\Coffeeuno.Domain\Coffeeuno.Domain.csproj", "{A82D67A0-7393-4B34-B33C-A17213B36D51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coffeeuno.Infrastructure", "src\Coffeeuno.Infrastructure\Coffeeuno.Infrastructure.csproj", "{678EB6D0-B00C-47D6-BFE5-18836CE6C46C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +28,13 @@ Global
 		{E475DA2B-622D-4ABA-82C5-2D3A490B801D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E475DA2B-622D-4ABA-82C5-2D3A490B801D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E475DA2B-622D-4ABA-82C5-2D3A490B801D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A82D67A0-7393-4B34-B33C-A17213B36D51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A82D67A0-7393-4B34-B33C-A17213B36D51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A82D67A0-7393-4B34-B33C-A17213B36D51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A82D67A0-7393-4B34-B33C-A17213B36D51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{678EB6D0-B00C-47D6-BFE5-18836CE6C46C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{678EB6D0-B00C-47D6-BFE5-18836CE6C46C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{678EB6D0-B00C-47D6-BFE5-18836CE6C46C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{678EB6D0-B00C-47D6-BFE5-18836CE6C46C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

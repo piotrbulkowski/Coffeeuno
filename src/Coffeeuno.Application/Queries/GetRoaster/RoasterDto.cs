@@ -1,6 +1,6 @@
-﻿using Coffeeuno.Fungi.Domain.Enums;
+﻿using Coffeeuno.Domain.Enums;
 
-namespace Coffeeuno.Domain.Application.Queries.GetRoaster;
+namespace Coffeeuno.Application.Queries.GetRoaster;
 
 public sealed class RoasterDto
 {
